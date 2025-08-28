@@ -1,0 +1,28 @@
+[tool.poetry]
+name= "trip-planner"
+version = "0.1.0"
+description= "a simple AI trip planner"
+authors = ["Oni-Bashir Atiatunnasir"]
+
+[tool.poetry.dependencies]
+python = "> 3.10.0,<3.13"
+crewai = "^0.175.0"
+unstructured = '==0.10.25'
+pyowm = '3.3.0'
+python-dotenv = "1.0.0"
+langchain-openai = "^0.2.1"
+langchain-tools = "^0.1.34"
+langchain-community = "^0.3.29"
+pybase64 = "^1.4.2"
+
+[tool.pyright]
+useLibraryCodeForTypes = true
+exclude = [".cache"]
+
+[tool.ruff]
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["poetry-core>1.0.0"]
+build-backend = "poetry.core.masnry.api"
