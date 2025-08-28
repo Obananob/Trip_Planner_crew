@@ -1,6 +1,6 @@
 # 🧳 Trip Planner CrewAI
 
-A modular AI-powered travel planner built with CrewAI and LangChain. It uses custom agents and tools to generate personalized 7-day itineraries, recommend cities, and gather local insights.
+A modular AI-powered travel planner built with CrewAI. It uses custom agents and tools to generate personalized 7-day itineraries, recommend cities, and gather local insights.
 
 ## 🚀 Features
 - Intelligent city selection based on traveler profile
