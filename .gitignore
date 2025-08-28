@@ -1,5 +1,16 @@
-# environment variables
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Environment and secrets
 .env
 
-#Cache folders
-__pycache__/
+# IDE/editor settings
+*.vscode/
+*.idea/
+
+# System files
+*.DS_Store
+
+# Logs and temp files
+*.log
